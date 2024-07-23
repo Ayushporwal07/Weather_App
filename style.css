@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: lemonchiffon;
+    background-image: url(https://images.pexels.com/photos/259620/pexels-photo-259620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-right: 40px;
+    color: aqua;
+}
+.location{
+    background-color: black;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    height: 34rem;
+    position: relative;
+    opacity: 0.7;
+}
+
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: a;
+}
+
+button{
+    padding: 10px;
+    font-size: 14px;
+    width: 17%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+
+.wether-state{
+    position: relative;
+
+
+}
+
+.emoji{
+    width: 167px;
+    text-align: center;
+    padding: 39px;
+    margin: 14px auto; 
+
+}
+
+.location-name{
+    text-align: center;
+    font-size:xx-large;
+    top: 185px;
+    position: absolute;
+    left: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;    
+}
+
+.temperature{
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    top: 282px;
+    position: absolute;
+    left: 35px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+}
+
+.condition{
+    display: flex;
+    font-size: 20px;
+    top: 345px;
+    position: absolute;
+    left: 35px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+}
+    
+
+.weather-container{
+    position: absolute;
+}
+
+
+.weather-condition{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 25rem;
+    top: 15rem
+
+}
+
+.humidity{
+    position: absolute;
+    width: 167px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 4px auto;
+    border-radius: 20px;
+    
+    bottom: 6rem;
+}
+
+.cloud{
+    position: absolute;
+    width: 167px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    top: -5rem
+}
+
+
+.uv{
+    position: absolute;
+    width: 167px;
+    background-color: white;
+    text-align: center;
+    padding: 29px;
+    margin: 15px auto;
+    border-radius: 20px;
+    top: 3rem;
+}
+
+

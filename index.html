@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="location">
+        <h2 class="title">Weather App</h2>
+            <input type="text" placeholder="Enter City Name" id="input">
+            <button id="search">Search</button>
+
+    <div class="weather-container">
+        <div class="weather-state">
+            <img src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" class="emoji">
+            <div class="location-name">London</div>
+            <div class="temperature">15.1</div>
+            <div class="condition">Partly cloudy</div>
+        </div>
+        <div class="weather-condition">
+            <span class="humidity">Humidity: 94%</span>
+        <span class="cloud">Cloud: 50%</span>
+        <span class="uv">UV Rays: 3.0%</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
